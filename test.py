@@ -4,10 +4,10 @@ import turtle
 
 
 def main():
-    print("hello world")
+    
     MakeBigSquare()
 
-    #TriangleMakerFunction()
+    TriangleMakerFunction()
 
 
 
@@ -43,10 +43,33 @@ def MakeBigSquare():
 
 def TriangleMakerFunction():
     #the following code will create Squares in 3 spots
+    x=70 
+    y=70
+    
+    Side_of_square= 50
     turtle.up()
-    turtle.forward(200)
+    turtle.goto(x,y)
+    turtle.down()
+    turtle .forward(Side_of_square)
     turtle.left(90)
-    turtle.forward(100)
+    turtle.forward(Side_of_square)
+    turtle.left(90)
+    turtle.forward(Side_of_square)
+    turtle.left(90)
+    turtle.forward(Side_of_square)
+
+    endPointOf1stSquarepostionXCoordinate= turtle.xcor()
+    EndpointOf1stSquareyCoordinate= turtle.ycor()
+    print(endPointOf1stSquarepostionXCoordinate)
+    print(EndpointOf1stSquareyCoordinate)
+
+    
+
+
+    #this finishes 1 Square
+
+    
+
 
 
 
