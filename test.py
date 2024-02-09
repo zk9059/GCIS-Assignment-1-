@@ -2,26 +2,47 @@ import turtle
 
 
 
-#here we will be creating a file for the Assignment for GCIS123
-homex=0
-homey=0
-
-#this will create a triangle as test
-
 
 def main():
-    turtleDrawing()
+    print("hello world")
+    MakeBigSquare()
+
+    #TriangleMakerFunction()
 
 
-def turtleDrawing():
-    turtle.goto(50,50)
+
+
+    input("any text")
+
+# this is for the square for all to be inside of 
+def MakeBigSquare():
+    
     turtle.right(90)
-    turtle.forward(100)
-    turtle.left(100)
-    turtle.goto(homex,homey)
-    turtle.goto(100,100)
-    turtle.forward(40)
+    turtle.up()
+    turtle.right(90)
 
+    turtle.forward(200)
+    turtle.down()
+    turtle.right(90)
+    turtle.forward(200)
+    turtle.right(90)
+    turtle.forward(400)
+    turtle.right(90)
+    turtle.forward(400)
+    turtle.right(90)
+    turtle.forward(400)
+    turtle.right(90)
+    turtle.forward(200)
+
+
+
+
+def TriangleMakerFunction():
+    #the following code will create Squares in 3 spots
+    turtle.up()
+    turtle.forward(200)
+    turtle.left(90)
+    turtle.forward(100)
 
 
 
