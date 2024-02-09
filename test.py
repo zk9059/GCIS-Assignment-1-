@@ -20,7 +20,9 @@ def MakeBigSquare():
     turtle.right(90)
     turtle.up()
     turtle.right(90)
-
+    #this is the begining of the rectangle
+    turtle.fillcolor("light blue")
+    turtle.begin_fill()
     turtle.forward(200)
     turtle.down()
     turtle.right(90)
@@ -33,6 +35,8 @@ def MakeBigSquare():
     turtle.forward(400)
     turtle.right(90)
     turtle.forward(200)
+    turtle.end_fill()
+    
 
 
 
